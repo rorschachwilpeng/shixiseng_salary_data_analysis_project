@@ -21,16 +21,16 @@ def hack_number(company_size):
     # 上：\xe4\xb8\x8a
     # 少：\xe5\xb0\x91
     # 于：xe4\xba\x8e
-
-    company_size = company_size.replace(b'\xef\x90\x98', b'0') #done
-    company_size = company_size.replace(b'\xee\xb6\xac', b'1') #done
-    company_size = company_size.replace(b'\xee\xb9\xad', b'2') #done
+    print(company_size)
+    company_size = company_size.replace(b'\xee\xb1\xa7', b'0') #done
+    company_size = company_size.replace(b'\xef\x92\x97', b'1') #done
+    company_size = company_size.replace(b'\xef\x89\x83', b'2') #done
     # salary = salary.replace(b'\xee\x99\xa3', b'人')
     # salary = salary.replace(b'\xe4\xbb\xa5', b'以')
     # salary = salary.replace(b'\xe4\xb8\x8a', b'上')
     # salary = salary.replace(b'\xe5\xb0\x91', b'少')
     # salary = salary.replace(b'\xe5\xb0\x91', b'于')
-    company_size = company_size.replace(b'\xef\x9b\xb8', b'5') #done
+    company_size = company_size.replace(b'\xef\xa0\xb0', b'5') #done
     print("Company Size",company_size) # 应该打印公司规模
     text = company_size.decode('utf-8')
     
@@ -131,5 +131,4 @@ def get_jobs_df(page_num):
     #jobs_df.to_csv('jobs_df.csv', index=False, encoding="utf_8")
     jobs_df.to_csv('jobs_df.csv',encoding="utf_8_sig")
 
-    return jobs_df
 
