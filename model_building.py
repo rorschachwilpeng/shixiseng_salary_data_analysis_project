@@ -87,6 +87,9 @@ gs.fit(X_train, y_train)
 print('best score: ',gs.best_score_)
 print('best Estimator for the random forest: ',gs.best_estimator_)
 
+gs.best_estimator_
+
+
 # test ensembles
 tpred_lm = lm.predict(X_test)
 tpred_lml = lm_l.predict(X_test)
@@ -98,5 +101,22 @@ print('lml mse score: ',mean_absolute_error(y_test, tpred_lml))
 print('rf mse score: ',mean_absolute_error(y_test, tpred_rf))
 
 
+
 df_check = pd.DataFrame({'test':y_test, 'lm_predicted':tpred_lm, 'lml_predicted':tpred_lml, 'rf_predicted':tpred_rf})
 
+
+import pickle
+pickl = {'model': gs.best_estimator_}
+pickle.dump( pickl, open( 'model_file' + ".p", "wb" ) )
+
+
+file_name = "model_file.p"
+with open(file_name, 'rb') as pickled:
+    data = pickle.load(pickled)
+    model = data['model']
+    
+model.predict(X_test.iloc[1,:].values.reshape(1,-1))
+
+list(X_test.iloc[1,:])
+
+X_test
