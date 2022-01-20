@@ -24,7 +24,19 @@ Tweaked the web scraper github repo (above) to scrape 980 job postings from shix
 * Job Week Custom Font（每周出勤数）
 * Job Time Cutom Font （最短实习时长）
 * Company Field（公司所处领域）
-* Company Size（公司规模
+* Company Size（公司规模)
 
+Note:实习僧网站设置了某些特定信息的动态反爬机制，每次爬取数据时，需要先动态解码即时爬取。
 
 # Data Cleanging
+After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+* 'Job Title','Company Name','Salary' parsing
+* Made columns for employer provided salary and monthly wages
+* 'Job Week Custom Font', 'Job Time Cutom Font' parsing
+* Transform 'Company Size' into proper format(There are 6 types of company size: 1. less than 15(person); 2. 15-50; 3. 50-150; 4. 150-500; 5. 500-2000; 6.more than 2000 )
+* Remove irrelevent columns
+* Save cleaned data as 'salary_data_cleaned.csv'
+
+# EDA
+I looked at the distribution of each attribute and analysis the relationship between each pair of attributes. Below are few highlight of the analysis.
+* During the EDA I map the value of 'job positon','acdemic requirement','company field' from Chinese into English
