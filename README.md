@@ -51,6 +51,7 @@ I looked at the distribution of each attribute and analysis the relationship bet
 * 企业服务/咨询（Corporate Services/Consulting）
 #### Average Salry for Different Job Fields
 ![alt text](https://github.com/rorschachwilpeng/shixiseng_salary_data_analysis_project/blob/main/avg_jf.png "Average Salry for Different Job Field")
+
 该信息段可深挖，可以搜索到有用的对应领域的工资不错的实习岗位 以及 其所对应的技能要求
 
 **Analysis:** 从柱状图可以看出，提供的平均工资最高的 三个对应公司领域分别是：
