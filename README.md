@@ -40,6 +40,11 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 # EDA
 I looked at the distribution of each attribute and analysis the relationship between each pair of attributes. Below are few highlight of the analysis.
 * During the EDA I map the value of 'job positon','acdemic requirement','company field' from Chinese into English
-![alt text](https://github.com/rorschachwilpeng/shixiseng_salary_data_analysis_project/blob/main/company_field_dis.png "Logo Title Text 1")
 
-ddd
+* Fig 1: This fig shows the company filed distribution
+![alt text](https://github.com/rorschachwilpeng/shixiseng_salary_data_analysis_project/blob/main/company_field_dis.png "Logo Title Text 1")
+**Analysis:** From the fig, the most field of data analysis is: "Internet/Games/Software", "Finance/Economy/Investment/Accounting", "Corporate Services/Consulting".
+
+* Fig 2: This fig shows the average salary for different company field
+![alt text](https://github.com/rorschachwilpeng/shixiseng_salary_data_analysis_project/blob/main/avg_jf.png "Logo Title Text 1")
+
