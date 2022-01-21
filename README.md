@@ -85,6 +85,7 @@ I looked at the distribution of each attribute and analysis the relationship bet
 * 北京，广州都没Dining/Hotel/Travel/Entertainment（餐饮/酒店/旅游/娱乐） 和 Agriculture/Other(农业/其他)领域岗位需求，但上海有
 * 相比北京和广州，上海在Automotive/Machinery/Manufacturing(汽车/机械/制造业)，Coporate Services/Consulting(公司服务/咨询), FMCG/Department/Wholesale/Retail(快速消费品/部门/批发/零售), Medical/Health/Pharma/Bio(医疗/健康/制药/生物),Dining/Hotel/Travel/Entertainment（餐饮/酒店/旅游/娱乐）领域都有一定岗位需求基数
 
+
 **总结(针对不同城市的所有领域):**
 
 1. 北京:
