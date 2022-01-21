@@ -43,6 +43,7 @@ I looked at the distribution of each attribute and analysis the relationship bet
 
 #### Company Field Distribution
 ![alt text](https://github.com/rorschachwilpeng/shixiseng_salary_data_analysis_project/blob/main/company_field_dis.png "Company Field Distribution")
+
 **Analysis:**
 从柱状图中可以看出，提供数据分析实习工作最多的领域依次是（前3）：
 * 互联网/游戏/软件（Internet/Games/Software）
@@ -52,11 +53,11 @@ I looked at the distribution of each attribute and analysis the relationship bet
 ![alt text](https://github.com/rorschachwilpeng/shixiseng_salary_data_analysis_project/blob/main/avg_jf.png "Average Salry for Different Job Field")
 该信息段可深挖，可以搜索到有用的对应领域的工资不错的实习岗位 以及 其所对应的技能要求
 
-Analysis: 从柱状图可以看出，提供的平均工资最高的 三个对应公司领域分别是：
+**Analysis:** 从柱状图可以看出，提供的平均工资最高的 三个对应公司领域分别是：
 
-*Funds/Securities/Futures/Investments(基金/证券/期货/投资) (数据中包含了2家公司): 22500元/月
-*Internet/Mobile Internet/E-commerce（互联网/移动互联网/电子商务）(数据中包含了7家公司): 10500元/月
-*Education/Training （教育/培训）(数据中包含了8家公司): 5475元/月
+* Funds/Securities/Futures/Investments(基金/证券/期货/投资) (数据中包含了2家公司): 22500元/月
+* Internet/Mobile Internet/E-commerce（互联网/移动互联网/电子商务）(数据中包含了7家公司): 10500元/月
+* Education/Training （教育/培训）(数据中包含了8家公司): 5475元/月
 （Note: 此图不表示 每个实习时长对应的公司数，实习时长对应的公司数分布图请在2.1.5中查看）
 
 其中提供数据分析最多的三个领域 与 其分别对应的平均工资分别是：
