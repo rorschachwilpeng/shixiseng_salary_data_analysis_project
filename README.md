@@ -106,7 +106,8 @@ Automotive/Machinery/Manufacturing(汽车/机械/制造业)，Medical/Health/Pha
 
 上海对于数据分析岗位需求量大且需求领域分布多元化（表现在各个领域都有一定需求）
 领域 Automotive/Machinery/Manufacturing(汽车/机械/制造业)， Dining/Hotel/Travel/Entertainment（餐饮/酒店/旅游/娱乐）对该岗位都有一定需求。这两个领域在北京/上海的需求量非常小
-总结(针对所有城市的所有领域)
+
+**总结(针对所有城市的所有领域)**
 
 Chemical/Energy/Enviroment Protection(化学/能源/环境保护)
 
