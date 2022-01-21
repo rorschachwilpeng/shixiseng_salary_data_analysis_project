@@ -41,14 +41,14 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 I looked at the distribution of each attribute and analysis the relationship between each pair of attributes. Below are few highlight of the analysis.
 * During the EDA I map the value of 'job positon','acdemic requirement','company field' from Chinese into English
 
-## Company Field Distribution
+#### Company Field Distribution
 ![alt text](https://github.com/rorschachwilpeng/shixiseng_salary_data_analysis_project/blob/main/company_field_dis.png "Company Field Distribution")
 **Analysis:**
 从柱状图中可以看出，提供数据分析实习工作最多的领域依次是（前3）：
 *互联网/游戏/软件（Internet/Games/Software）
 *金融/经济/投资/财会:（Finance/Economy/Investment/Accounting）
 * 企业服务/咨询（Corporate Services/Consulting）
-## Average Salry for Different Job Fields
+#### Average Salry for Different Job Fields
 ![alt text](https://github.com/rorschachwilpeng/shixiseng_salary_data_analysis_project/blob/main/avg_jf.png "Average Salry for Different Job Field")
 该信息段可深挖，可以搜索到有用的对应领域的工资不错的实习岗位 以及 其所对应的技能要求
 
@@ -71,7 +71,7 @@ Analysis: 从柱状图可以看出，提供的平均工资最高的 三个对应
 以下为公司简介介绍： 罡兴投资是一家专注于二级市场量化交易的资管公司，通过统计和机器学习模型进行程序化证券交易。公司秉承着精英化团队管理的理念，有着纯正的清华基因和金牌血统。投研团队汇集了全国奥林匹克竞赛多枚金牌；80%以上来自于清华北大、以及海内外一流学府。公司合伙人曾就职于世界一流的金融机构和对冲基金，有着深厚的研究能力和投资实战经验。 我们致力于成为海内外最顶尖的量化交易团队，笃信技术可以带来革命，未来可以被计算。现阶段我们致力于A股Alpha和期货低延迟交易的研究，通过机器学习和数理统计捕捉稳定可靠的交易机会。公司以低延迟交易起步，取得了令人瞩目的成绩，并在股票和期货市场逐步开拓，稳扎稳打谋求长足发展。 与此同时，我们坚信非凡的团队才是致胜的金杯。在这里，我们有手把手的指导和扁平化的管理训练体系；在这里，我们以技术为种子，持续创新，追求卓越。如果你愿意加入到顶配的交易团队，有着与市场一较高下的抱负，我们真诚地邀请你一同并肩而战。
 
 
-## Number of job field distribution in three big cities(BeiJing, GuangZhou, ShangHai)
+#### Number of job field distribution in three big cities(BeiJing, GuangZhou, ShangHai)
 ![alt text](https://github.com/rorschachwilpeng/shixiseng_salary_data_analysis_project/blob/main/jf_dis_3cities.png "Number of job field distribution in three big cities(BeiJing, GuangZhou, ShangHai)")
 
 **Analysis**: 从柱状图中我们可以看到, 在提供数据分析实习岗位数量最多的三个城市（‘北京’，’广州‘，’上海‘）中：
