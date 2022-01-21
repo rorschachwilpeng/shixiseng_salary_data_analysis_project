@@ -10,7 +10,7 @@
 **Python Version:** 3.7
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
 **For Web Framework Requirements:** pip install -r requirements.txt
-
+**Referenced Project:** https://github.com/PlayingNumbers/ds_salary_proj
 **Flask Productionization:**[https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2](https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2)
 
 
@@ -122,3 +122,19 @@ Funds/Securities/Futures/Investments(基金/证券/期货/投资)
 'real estate/home/property/construction'(房产/家居/物业/建筑）
 
 如上领域对于数据分析岗位需求相对较小
+
+# Model Building
+First, I transformed the categorical variables into dyummy varialbes. I also split the data into train and tests sets with a test size of 20%
+
+I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren't particularly bad in for this type of model
+
+I tried three different models:
+* Multiple Linear Regression - Baseline for the model
+* Lasso Regression - Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
+* Random Forest - Again, with the sparsity associated with the data, I thought that this would be a good fit.
+
+# Model Performance
+The Lasso Regression model performed best. However, the MSE value is extremely large due to unknown reason. I think this issues was caused the number of attributes are too little for model. What's more, the salary may be very different just due to one attribute value. For example, for same company field and size, if one job is provided in BeiJing, another one is provided in ChengDu. There may be great difference. Maybe enlarge the dataset(scracping more data may help, but I readly extracted all intership related to 'data scienctist' intership from the website).
+
+# Productionization
+In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
