@@ -45,8 +45,8 @@ I looked at the distribution of each attribute and analysis the relationship bet
 ![alt text](https://github.com/rorschachwilpeng/shixiseng_salary_data_analysis_project/blob/main/company_field_dis.png "Company Field Distribution")
 **Analysis:**
 从柱状图中可以看出，提供数据分析实习工作最多的领域依次是（前3）：
-*互联网/游戏/软件（Internet/Games/Software）
-*金融/经济/投资/财会:（Finance/Economy/Investment/Accounting）
+* 互联网/游戏/软件（Internet/Games/Software）
+* 金融/经济/投资/财会:（Finance/Economy/Investment/Accounting）
 * 企业服务/咨询（Corporate Services/Consulting）
 #### Average Salry for Different Job Fields
 ![alt text](https://github.com/rorschachwilpeng/shixiseng_salary_data_analysis_project/blob/main/avg_jf.png "Average Salry for Different Job Field")
