@@ -95,11 +95,13 @@ I looked at the distribution of each attribute and analysis the relationship bet
 
 数据分析是一个新兴行业，通常招聘该岗位的公司都比较年轻。因此我推断，北京的新兴企业/年轻企业主要集中分布在“互联网/游戏/软件”领域
 面向分析对象是“数据分析实习岗位”。因此可能该职业相对上海可能更趋近于饱和？
+
 2. 广州:
 
 对该岗位的需求主要集中分布在四个领域：Advertising/Media/PR/Exhibition(广告/媒体/公关/展览), Coporate Services/Consulting(公司服务/咨询), Finance/Economy/Investment/Accounting(金融),Internet/Games/Software(互联网/游戏/软件)
 Automotive/Machinery/Manufacturing(汽车/机械/制造业)，Medical/Health/Pharma/Bio(医疗/健康/制药/生物)领域对该岗位无需求（基于当前数据）。这两个领域在北京/上海都有一定岗位需求量
 广州是三大城市中对数据分析岗位需求量最小的
+
 3. 上海:
 
 上海对于数据分析岗位需求量大且需求领域分布多元化（表现在各个领域都有一定需求）
