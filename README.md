@@ -76,13 +76,14 @@ Analysis: 从柱状图可以看出，提供的平均工资最高的 三个对应
 
 **Analysis**: 从柱状图中我们可以看到, 在提供数据分析实习岗位数量最多的三个城市（‘北京’，’广州‘，’上海‘）中：
 
-Internet/Games/Software(互联网/游戏/软件）领域对数据分析岗位需求量最大，其中北京对于该领域对该岗位的需求量最大(among 3)
-Finance/Economy/Investment/Accounting(金融)领域对数据分析岗位需求量第二大
-北京的Dining/Hotel/Travel/Entertainment（餐饮/酒店/旅游/娱乐） 和 Agriculture/Other(农业/其他)领域对该岗位没有需求量（基于当前数据）
-广州的Automotive/Machinery/Manufacturing(汽车/机械/制造业) , Chemical/Energy/Enviroment Protection(化学/能源/环境保护) , Funds/Securities/Futures/Investments(基金/证券/期货/投资) , Medical/Health/Pharma/Bio(医疗/健康/制药/生物) , Unlimited(..) , Dining/Hotel/Travel/Entertainment（餐饮/酒店/旅游/娱乐） 和 Agriculture/Other(农业/其他)领域对该岗位没有需求量（基于当前数据）
-北京，广州都没Dining/Hotel/Travel/Entertainment（餐饮/酒店/旅游/娱乐） 和 Agriculture/Other(农业/其他)领域岗位需求，但上海有
-相比北京和广州，上海在Automotive/Machinery/Manufacturing(汽车/机械/制造业)，Coporate Services/Consulting(公司服务/咨询), FMCG/Department/Wholesale/Retail(快速消费品/部门/批发/零售), Medical/Health/Pharma/Bio(医疗/健康/制药/生物),Dining/Hotel/Travel/Entertainment（餐饮/酒店/旅游/娱乐）领域都有一定岗位需求基数
-总结(针对不同城市的所有领域):
+* Internet/Games/Software(互联网/游戏/软件）领域对数据分析岗位需求量最大，其中北京对于该领域对该岗位的需求量最大(among 3)
+* Finance/Economy/Investment/Accounting(金融)领域对数据分析岗位需求量第二大
+* 北京的Dining/Hotel/Travel/Entertainment（餐饮/酒店/旅游/娱乐） 和 Agriculture/Other(农业/其他)领域对该岗位没有需求量（基于当前数据）
+* 广州的Automotive/Machinery/Manufacturing(汽车/机械/制造业) , Chemical/Energy/Enviroment Protection(化学/能源/环境保护) , Funds/Securities/Futures/Investments(基金/证券/期货/投资) , Medical/Health/Pharma/Bio(医疗/健康/制药/生物) , Unlimited(..) , Dining/Hotel/Travel/Entertainment（餐饮/酒店/旅游/娱乐） 和 Agriculture/Other(农业/其他)领域对该岗位没有需求量（基于当前数据）
+* 北京，广州都没Dining/Hotel/Travel/Entertainment（餐饮/酒店/旅游/娱乐） 和 Agriculture/Other(农业/其他)领域岗位需求，但上海有
+* 相比北京和广州，上海在Automotive/Machinery/Manufacturing(汽车/机械/制造业)，Coporate Services/Consulting(公司服务/咨询), FMCG/Department/Wholesale/Retail(快速消费品/部门/批发/零售), Medical/Health/Pharma/Bio(医疗/健康/制药/生物),Dining/Hotel/Travel/Entertainment（餐饮/酒店/旅游/娱乐）领域都有一定岗位需求基数
+
+**总结(针对不同城市的所有领域):**
 
 1. 北京:
 
