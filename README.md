@@ -98,9 +98,9 @@ I looked at the distribution of each attribute and analysis the relationship bet
 
 2. 广州:
 
-对该岗位的需求主要集中分布在四个领域：Advertising/Media/PR/Exhibition(广告/媒体/公关/展览), Coporate Services/Consulting(公司服务/咨询), Finance/Economy/Investment/Accounting(金融),Internet/Games/Software(互联网/游戏/软件)
+对该岗位的需求主要集中分布在四个领域：Advertising/Media/PR/Exhibition(广告/媒体/公关/展览), Coporate Services/Consulting(公司服务/咨询), Finance/Economy/Investment/Accounting(金融),Internet/Games/Software(互联网/游戏/软件)。
 Automotive/Machinery/Manufacturing(汽车/机械/制造业)，Medical/Health/Pharma/Bio(医疗/健康/制药/生物)领域对该岗位无需求（基于当前数据）。这两个领域在北京/上海都有一定岗位需求量
-广州是三大城市中对数据分析岗位需求量最小的
+广州是三大城市中对数据分析岗位需求量最小的。
 
 3. 上海:
 
